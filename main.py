@@ -44,7 +44,7 @@ async def on_message_edit(before: Message, after: Message):
     await client.process_commands(after)
 
 
-@client.command(enabled=True)
+@client.command(enabled=False)
 async def say(ctx: Context, **kwargs):
     # msg = kwargs.pop('msg')
     await ctx.message.reply(kwargs)
