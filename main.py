@@ -8,7 +8,7 @@ from pretty_help import DefaultMenu, PrettyHelp
 # BOT CONFIG
 command_prefix = '+'
 
-token = 'ODQzNjIwNjMxMjAyNjI3NTg1.YKGg8A.3lIhx_9L7-Y2kusy7-eoUqysoy4'
+token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 client = Bot(command_prefix=when_mentioned_or(command_prefix),
              case_insensitive=True)
 
